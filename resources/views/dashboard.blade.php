@@ -32,7 +32,7 @@
             <div class="card-footer">
               <div class="stats">
                 <i class="material-icons">toc</i>
-                <a href="#">See Details</a>
+                <a href="{{ route('business') }}">See Details</a>
               </div>
             </div>
           </div>
@@ -185,33 +185,33 @@
                 <thead class="text-warning">
                   <th>Times</th>
                   <th>Name</th>
-                  <th>Salary</th>
+                  <th>City</th>
                   <th>Country</th>
                 </thead>
                 <tbody>
                   <tr>
                     <td>800</td>
-                    <td>Walmart</td>
+                    <td>Patel Brothers</td>
                     <td>California</td>
                     <td>USA</td>
                   </tr>
                   <tr>
                     <td>730</td>
-                    <td>Sam's Club</td>
+                    <td>Shop Rites</td>
                     <td>New York</td>
                     <td>USA</td>
                   </tr>
                   <tr>
                     <td>500</td>
-                    <td>Costco</td>
-                    <td>CDMX</td>
-                    <td>México</td>
+                    <td>FreshCo</td>
+                    <td>Toronto</td>
+                    <td>Canada</td>
                   </tr>
                   <tr>
                     <td>250</td>
-                    <td>Walmart</td>
-                    <td>Mérida</td>
-                    <td>México</td>
+                    <td>Dollarama</td>
+                    <td>New Jersey</td>
+                    <td>USA</td>
                   </tr>
                 </tbody>
               </table>

@@ -101,7 +101,7 @@
                   Tip 2: you can also add an image using data-image tag
               -->
                 <div class="logo">
-                    <a href="https://creative-tim.com/" class="simple-text logo-normal">
+                    <a href="{{ route('home') }}" class="simple-text logo-normal">
                         {{ config('app.name') }}
                     </a>
                 </div>
@@ -126,41 +126,11 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('table') }}">
-                                <i class="material-icons">content_paste</i>
-                                <p>{{ __('Table List') }}</p>
+                            <a class="nav-link" href="{{ route('business') }}">
+                              <i class="material-icons">store</i>
+                                <p>{{ __('Stores') }}</p>
                             </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ route('typography') }}">
-                                <i class="material-icons">library_books</i>
-                                <p>{{ __('Typography') }}</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ route('icons') }}">
-                                <i class="material-icons">bubble_chart</i>
-                                <p>{{ __('Icons') }}</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ route('map') }}">
-                                <i class="material-icons">location_ons</i>
-                                <p>{{ __('Maps') }}</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ route('notifications') }}">
-                                <i class="material-icons">notifications</i>
-                                <p>{{ __('Notifications') }}</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ route('language') }}">
-                                <i class="material-icons">language</i>
-                                <p>{{ __('RTL Support') }}</p>
-                            </a>
-                        </li>
+                          </li>
                     </ul>
                 </div>
             </div>
